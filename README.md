@@ -14,11 +14,14 @@ pip install -r requirements.txt
 
 ## Notebooks
 
-- `notebooks/spad-g2-temporal-coherence.ipynb` - initial SPAD notebook for `g2` and temporal coherence calculations.
+- `notebooks/01_timestamp_g2_basics.ipynb` - timestamp-based `g2` estimation with expected pairs per `g2` bin as the brightness control.
+- `notebooks/02_spad_nonidealities.ipynb` - SPAD timing jitter and its effect on timestamp `g2`, comparing the Poisson-limited estimate with the jittered estimate.
 
 ## Dependencies
 
-The initial notebooks require only:
+The initial notebooks require:
 
 - NumPy
 - Matplotlib
+- Astropy
+- tqdm
